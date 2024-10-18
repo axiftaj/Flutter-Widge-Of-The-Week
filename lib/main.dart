@@ -1,4 +1,5 @@
 import 'package:asif/provider/app_language/app_language.dart';
+import 'package:asif/rating_screen.dart';
 import 'package:asif/screen/pagination_screen/pagination_screen.dart';
 import 'package:asif/screen/search_places_api/google_map_search_places_api.dart';
 import 'package:asif/utils/session_controller.dart';
@@ -61,7 +62,7 @@ class MyApp extends StatelessWidget {
               Locale('es'), // Spanish
             ],
 
-            home: const GoogleMapSearchPlacesApi(),
+            home: const RatingScreen(),
           );
         },
       )
